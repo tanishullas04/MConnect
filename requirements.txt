@@ -1,0 +1,18 @@
+# Requirements for all APIs
+flask==3.1.2
+flask-cors==6.0.1
+
+# TTS API dependencies
+deep-translator==1.11.4
+gtts==2.5.1
+
+# STT API dependencies
+vosk==0.3.44
+sounddevice==0.4.7
+
+# Sign Language API dependencies
+opencv-python==4.8.1.78
+ultralytics==8.3.200
+pillow==11.3.0
+numpy==1.26.4
+torch>=2.0.0
